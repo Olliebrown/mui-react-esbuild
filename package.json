@@ -1,0 +1,42 @@
+{
+  "name": "react-esbuild-template",
+  "version": "1.0.0",
+  "description": "A manual react and MUI template that avoids build systems (like Vite) in favor of a controllable, DIY approach.",
+  "license": "MIT",
+  "author": "Seth Berrier",
+  "type": "module",
+  "main": "public/index.html",
+  "repository": {
+    "type": "git",
+    "url": "github:olliebrown/mui-react-esbuild"
+  },
+  "bugs": {
+    "url": "https://github.com/olliebrown/mui-react-esbuild/issues"
+  },
+  "homepage": "https://github.com/Olliebrown/mui-react-esbuild",
+  "scripts": {
+    "client:devserve": "node esbuild.config.js dev serve",
+    "client:dev": "node esbuild.config.js dev",
+    "client": "node esbuild.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@fontsource/roboto": "^5.2.10",
+    "@mui/icons-material": "^9.0.1",
+    "@mui/material": "^9.0.1",
+    "dotenv": "^16.0.1",
+    "esbuild": "^0.28.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-router": "^7.15.1",
+    "simple-icons": "^16.21.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "neostandard": "^0.13.0",
+    "nodemon": "^3.1.14"
+  }
+}
