@@ -1,5 +1,5 @@
 {
-  "name": "react-esbuild-template",
+  "name": "mui-react-esbuild-template",
   "version": "1.0.0",
   "description": "A manual react and MUI template that avoids build systems (like Vite) in favor of a controllable, DIY approach.",
   "license": "MIT",
